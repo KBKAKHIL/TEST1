@@ -36,11 +36,12 @@ public class BlazeDemoTest {
 	}
 	@Test
 	public void testCase2() throws InterruptedException {
-		
+
 		WebElement details = driver.findElement(By.className("btn btn-primary"));
 		details.click();
 		driver.close();
 		Thread.sleep(4000);
+		
 	}
 	
 	@Test
